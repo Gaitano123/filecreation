@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image:url("images/IMG-20230306-WA0059.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    block-size: 30px;
+    inset-block: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding-left: 200px;
+    float: right;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    backdrop-filter: blur(7px);
+
+}
+nav ul{
+    padding-right: 400px;
+}
+
+.logo a{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+.box{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+    backdrop-filter: blur(5px);
+    position: relative;
+    border-radius: 50px;
+}
+.logo{
+    padding-left: 50px;
+}
+div{
+    backdrop-filter: blur(4px);
+}
+#rise{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    color: rgb(35,45,75);
+}
+form{
+    display:flext;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 35px;
+    padding-left: 50px;
+}
+input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(35,45,75);
+    color: white;
+}
+.mname{
+    padding-left: 200px;
+}
+.idno{
+    padding-left: 210px;
+}
+label{
+    padding-top: 50px;
+}
+br{
+    margin-bottom: 200px;
+}
+.lname{
+    padding-top: 50px;
+    backdrop-filter: blur(0px);
+    padding-bottom: 0px;
+}
+.email{
+    padding-top: 50px;
+    backdrop-filter: blur(0px);
+    padding-bottom: 0px;
+}
+.phno{
+    padding-top: 50px;
+    backdrop-filter: blur(0px);
+    padding-bottom: 0px;
+}
+.dob{
+    padding-top: 50px;
+    backdrop-filter: blur(0px);
+    padding-bottom: 0px;
+}
+.com{
+    padding-top: 50px;
+    backdrop-filter: blur(0px);
+    padding-bottom: 35px;
+}
+textarea{
+    background-color: rgb(35,45,75);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
